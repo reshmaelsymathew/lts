@@ -1,13 +1,13 @@
-package edu.uow.lts.booking;
+package edu.uow.lts.ridebooking;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BookingApplication {
+public class RidebookingApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BookingApplication.class, args);
+		SpringApplication.run(RidebookingApplication.class, args);
 	}
 
 }
