@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 
 import edu.uow.lts.ridebooking.entity.Action;
 import edu.uow.lts.ridebooking.entity.ActionType;
-import edu.uow.lts.ridebooking.entity.EventLog;
+import edu.uow.lts.ridebooking.entity.EventLogLts;
 import edu.uow.lts.ridebooking.entity.Status;
 import edu.uow.lts.ridebooking.repository.EventLogRepository;
 
@@ -32,7 +32,7 @@ public class EventLogService {
                 throw new IllegalArgumentException("ActionType, Action, and Status must not be null");
             }
 
-            EventLog log = new EventLog();
+            EventLogLts log = new EventLogLts();
             log.setUserId(userId);
             log.setUsername(username);
             log.setActionType(actionType);

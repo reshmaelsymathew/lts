@@ -34,30 +34,30 @@ public class RideBookingServiceImpl implements RideBookingService {
      */
     @Override
     public RideBooking createRideBooking(RideBooking rideBooking) {
-        logger.info("Creating a new ride booking for customer: {}", rideBooking.getConatctNumber());
+        logger.info("[LTS]  Creating a new ride booking for customer: {}", rideBooking.getConatctNumber());
         RideBooking createdBooking = rideBookingRepository.save(rideBooking);
-        logger.info("Ride booking created successfully with ID: {}", createdBooking.getRideBookingId());
+        logger.info("[LTS]  Ride booking created successfully with ID: {}", createdBooking.getRideBookingId());
 
         // Save event log for creation action
-        eventLogService.saveEventLog(1L, "admin", ActionType.CREATE, Action.RIDE_BOOKING_CREATE, Status.SUCCESS);
-
+        eventLogService.saveEventLog(1L, rideBooking.getVisitorName(), ActionType.CREATE, Action.RIDE_BOOKING_CREATE, Status.SUCCESS);
+        logger.info("[LTS]  Ride booking created successfully with data: {}", rideBooking);
         return createdBooking;
     }
 
     @Override
     public Optional<RideBooking> getRideBookingById(Long id) {
-        logger.info("Fetching ride booking by ID: {}", id);
+        logger.info("[LTS]  Fetching ride booking by ID: {}", id);
         Optional<RideBooking> booking = rideBookingRepository.findById(id);
 
         // Log event for fetching by ID
         if (booking.isPresent()) {
-            eventLogService.saveEventLog(1L, "admin", ActionType.GET_BY_ID, Action.RIDE_BOOKING_GET_BY_ID, Status.SUCCESS);
-            logger.info("Ride booking found: {}", booking.get());
+            eventLogService.saveEventLog(1L, booking.get().getVisitorName(), ActionType.GET_BY_ID, Action.RIDE_BOOKING_GET_BY_ID, Status.SUCCESS);
+            logger.info("[LTS]  Ride booking found: {}", booking.get());
         } else {
-            eventLogService.saveEventLog(1L, "admin", ActionType.GET_BY_ID, Action.RIDE_BOOKING_GET_BY_ID, Status.ERROR);
-            logger.warn("Ride booking not found with ID: {}", id);
+            eventLogService.saveEventLog(1L, booking.get().getVisitorName(), ActionType.GET_BY_ID, Action.RIDE_BOOKING_GET_BY_ID, Status.ERROR);
+            logger.warn("[LTS] Ride booking not found with ID: {}", id);
         }
-
+        logger.info("[LTS]  Fetching ride booking by ID of visitor: {}", booking.get());
         return booking;
     }
 
@@ -66,13 +66,13 @@ public class RideBookingServiceImpl implements RideBookingService {
      */
     @Override
     public List<RideBooking> getAllRideBookings() {
-        logger.info("Fetching all ride bookings.");
+        logger.info("[LTS]  [LTS] Fetching all ride bookings.");
         List<RideBooking> bookings = rideBookingRepository.findAll();
-        logger.info("Total ride bookings fetched: {}", bookings.size());
+        logger.info("[LTS]  Total ride bookings fetched: {}", bookings.size());
 
         // Save event log for fetching all bookings
         eventLogService.saveEventLog(1L, "admin", ActionType.GET_ALL, Action.RIDE_BOOKING_GET_ALL, Status.SUCCESS);
-
+        logger.info("[LTS]  Total ride bookings fetched deatils: {}", bookings.get(0));
         return bookings;
     }
 
@@ -83,7 +83,7 @@ public class RideBookingServiceImpl implements RideBookingService {
      */
     @Override
     public RideBooking updateRideBooking(Long id, RideBooking rideBooking) {
-        logger.info("Updating ride booking with ID: {}", id);
+        logger.info("[LTS]  Updating ride booking with ID: {}", id);
         Optional<RideBooking> existingBooking = rideBookingRepository.findById(id);
 
         if (existingBooking.isPresent()) {
@@ -98,13 +98,13 @@ public class RideBookingServiceImpl implements RideBookingService {
             
             // Save updated booking and log the success
             RideBooking savedBooking = rideBookingRepository.save(updatedBooking);
-            eventLogService.saveEventLog(1L, "admin", ActionType.UPDATE, Action.RIDE_BOOKING_UPDATE, Status.SUCCESS);
-            logger.info("Ride booking updated successfully: {}", savedBooking);
+            eventLogService.saveEventLog(1L, rideBooking.getVisitorName(), ActionType.UPDATE, Action.RIDE_BOOKING_UPDATE, Status.SUCCESS);
+            logger.info("[LTS]  Ride booking updated successfully: {}", savedBooking);
             return savedBooking;
         } else {
             // Log the error if ride booking not found
             eventLogService.saveEventLog(1L, "admin", ActionType.UPDATE, Action.RIDE_BOOKING_UPDATE, Status.ERROR);
-            logger.warn("Ride booking not found for update, ID: {}", id);
+            logger.warn("[LTS] Ride booking not found for update, ID: {}", id);
             throw new RuntimeException("RideBooking not found with id " + id);
         }
     }
@@ -114,15 +114,15 @@ public class RideBookingServiceImpl implements RideBookingService {
      */
     @Override
     public void deleteRideBooking(Long id) {
-        logger.info("Deleting ride booking with ID: {}", id);
+        logger.info("[LTS]  Deleting ride booking with ID: {}", id);
 
         try {
             rideBookingRepository.deleteById(id);
             eventLogService.saveEventLog(1L, "admin", ActionType.DELETE, Action.RIDE_BOOKING_DELETE, Status.SUCCESS);
-            logger.info("Ride booking with ID: {} deleted successfully.", id);
+            logger.info("[LTS]  Ride booking with ID: {} deleted successfully.", id);
         } catch (Exception e) {
             eventLogService.saveEventLog(1L, "admin", ActionType.DELETE, Action.RIDE_BOOKING_DELETE, Status.ERROR);
-            logger.error("Failed to delete ride booking with ID: {}. Error: {}", id, e.getMessage());
+            logger.error("[LTS]  Failed to delete ride booking with ID: {}. Error: {}", id, e.getMessage());
             throw new RuntimeException("Failed to delete RideBooking with id " + id, e);
         }
     }

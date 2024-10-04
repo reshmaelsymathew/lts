@@ -1,0 +1,27 @@
+2024-10-04 09:45:34,159 INFO AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [edu.uow.lts.ridebooking.RidebookingApplicationTests]: RidebookingApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-10-04 09:45:34,332 INFO SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration edu.uow.lts.ridebooking.RidebookingApplication for test class edu.uow.lts.ridebooking.RidebookingApplicationTests
+2024-10-04 09:45:34,876 INFO StartupInfoLogger [main] Starting RidebookingApplicationTests using Java 17.0.10 with PID 6364 (started by HP in D:\Sem 3\CSCI927\Project\Project -927\Workspace\lts)
+2024-10-04 09:45:34,876 INFO StartupInfoLogger [main] Starting RidebookingApplicationTests using Java 17.0.10 with PID 6364 (started by HP in D:\Sem 3\CSCI927\Project\Project -927\Workspace\lts)
+2024-10-04 09:45:34,887 DEBUG StartupInfoLogger [main] Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-10-04 09:45:34,887 DEBUG StartupInfoLogger [main] Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-10-04 09:45:34,888 INFO SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-10-04 09:45:34,888 INFO SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-10-04 09:45:36,324 INFO RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-04 09:45:36,419 INFO RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 82 ms. Found 2 JPA repository interfaces.
+2024-10-04 09:45:37,393 INFO LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-04 09:45:37,515 INFO Version [main] HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-04 09:45:37,585 INFO RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-10-04 09:45:38,191 INFO SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-04 09:45:38,253 INFO HikariDataSource [main] HikariPool-1 - Starting...
+2024-10-04 09:45:38,820 INFO HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@40edc64e
+2024-10-04 09:45:38,823 INFO HikariDataSource [main] HikariPool-1 - Start completed.
+2024-10-04 09:45:39,010 WARN DialectFactoryImpl [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-04 09:45:40,415 INFO JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-04 09:45:40,505 INFO AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-04 09:45:41,365 WARN JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-04 09:45:42,665 INFO EndpointLinksResolver [main] Exposing 1 endpoint beneath base path '/actuator'
+2024-10-04 09:45:42,802 INFO StartupInfoLogger [main] Started RidebookingApplicationTests in 8.247 seconds (process running for 10.628)
+2024-10-04 09:45:42,802 INFO StartupInfoLogger [main] Started RidebookingApplicationTests in 8.247 seconds (process running for 10.628)
+2024-10-04 09:45:43,899 INFO AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-04 09:45:43,903 INFO HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-10-04 09:45:43,923 INFO HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.

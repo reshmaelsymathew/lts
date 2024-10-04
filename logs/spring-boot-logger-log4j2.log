@@ -1,0 +1,201 @@
+2024-10-04 10:24:45,748 INFO StartupInfoLogger [main] Starting RidebookingApplication using Java 17.0.10 with PID 17164 (D:\Sem 3\CSCI927\Project\Project -927\Workspace\lts\target\classes started by HP in D:\Sem 3\CSCI927\Project\Project -927\Workspace\lts)
+2024-10-04 10:24:45,748 INFO StartupInfoLogger [main] Starting RidebookingApplication using Java 17.0.10 with PID 17164 (D:\Sem 3\CSCI927\Project\Project -927\Workspace\lts\target\classes started by HP in D:\Sem 3\CSCI927\Project\Project -927\Workspace\lts)
+2024-10-04 10:24:45,760 DEBUG StartupInfoLogger [main] Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-10-04 10:24:45,760 DEBUG StartupInfoLogger [main] Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-10-04 10:24:45,766 INFO SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-10-04 10:24:45,766 INFO SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-10-04 10:24:50,745 INFO RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-04 10:24:50,965 INFO RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 200 ms. Found 2 JPA repository interfaces.
+2024-10-04 10:24:53,764 INFO TomcatWebServer [main] Tomcat initialized with port 8081 (http)
+2024-10-04 10:24:53,786 INFO DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2024-10-04 10:24:53,794 INFO DirectJDKLog [main] Starting service [Tomcat]
+2024-10-04 10:24:53,798 INFO DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-04 10:24:54,021 INFO DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-10-04 10:24:54,109 INFO ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 8160 ms
+2024-10-04 10:24:55,348 INFO LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-04 10:24:55,505 INFO Version [main] HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-04 10:24:55,626 INFO RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-10-04 10:24:57,024 INFO SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-04 10:24:57,092 INFO HikariDataSource [main] HikariPool-1 - Starting...
+2024-10-04 10:24:58,216 INFO HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7ea039b4
+2024-10-04 10:24:58,220 INFO HikariDataSource [main] HikariPool-1 - Start completed.
+2024-10-04 10:24:58,367 WARN DialectFactoryImpl [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-04 10:25:01,287 INFO JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-04 10:25:01,511 INFO AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-04 10:25:03,101 WARN JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-04 10:25:04,853 INFO EndpointLinksResolver [main] Exposing 1 endpoint beneath base path '/actuator'
+2024-10-04 10:25:05,033 INFO DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2024-10-04 10:25:05,102 INFO TomcatWebServer [main] Tomcat started on port 8081 (http) with context path '/'
+2024-10-04 10:25:05,264 INFO StartupInfoLogger [main] Started RidebookingApplication in 20.732 seconds (process running for 24.128)
+2024-10-04 10:25:05,264 INFO StartupInfoLogger [main] Started RidebookingApplication in 20.732 seconds (process running for 24.128)
+2024-10-04 10:26:59,813 INFO DirectJDKLog [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-04 10:26:59,813 INFO FrameworkServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-10-04 10:26:59,816 INFO FrameworkServlet [http-nio-8081-exec-1] Completed initialization in 2 ms
+2024-10-04 10:26:59,998 INFO RideBookingController [http-nio-8081-exec-1] [LTS]  Creating a new ride booking for: null
+2024-10-04 10:26:59,998 INFO RideBookingController [http-nio-8081-exec-1] [LTS]  Creating a new ride booking for: null
+2024-10-04 10:26:59,999 INFO RideBookingServiceImpl [http-nio-8081-exec-1] [LTS]  Creating a new ride booking for customer: null
+2024-10-04 10:26:59,999 INFO RideBookingServiceImpl [http-nio-8081-exec-1] [LTS]  Creating a new ride booking for customer: null
+2024-10-04 10:27:00,119 INFO RideBookingServiceImpl [http-nio-8081-exec-1] [LTS]  Ride booking created successfully with ID: 1
+2024-10-04 10:27:00,119 INFO RideBookingServiceImpl [http-nio-8081-exec-1] [LTS]  Ride booking created successfully with ID: 1
+2024-10-04 10:27:00,120 INFO EventLogService [http-nio-8081-exec-1] Attempting to save event log: UserId=1, Username=James Pat, ActionType=CREATE, Action=RIDE_BOOKING_CREATE, Status=SUCCESS
+2024-10-04 10:27:00,120 INFO EventLogService [http-nio-8081-exec-1] Attempting to save event log: UserId=1, Username=James Pat, ActionType=CREATE, Action=RIDE_BOOKING_CREATE, Status=SUCCESS
+2024-10-04 10:27:00,134 INFO EventLogService [http-nio-8081-exec-1] Event log successfully saved for UserId=1, Action=RIDE_BOOKING_CREATE
+2024-10-04 10:27:00,134 INFO EventLogService [http-nio-8081-exec-1] Event log successfully saved for UserId=1, Action=RIDE_BOOKING_CREATE
+2024-10-04 10:27:00,134 INFO RideBookingServiceImpl [http-nio-8081-exec-1] [LTS]  Ride booking created successfully with data: edu.uow.lts.ridebooking.entity.RideBooking@48332112
+2024-10-04 10:27:00,134 INFO RideBookingServiceImpl [http-nio-8081-exec-1] [LTS]  Ride booking created successfully with data: edu.uow.lts.ridebooking.entity.RideBooking@48332112
+2024-10-04 10:27:00,134 INFO RideBookingController [http-nio-8081-exec-1] [LTS]  Ride booking created successfully: edu.uow.lts.ridebooking.entity.RideBooking@48332112
+2024-10-04 10:27:00,134 INFO RideBookingController [http-nio-8081-exec-1] [LTS]  Ride booking created successfully: edu.uow.lts.ridebooking.entity.RideBooking@48332112
+2024-10-04 10:27:05,208 INFO RideBookingController [http-nio-8081-exec-2] [LTS]  Fetching all ride bookings
+2024-10-04 10:27:05,208 INFO RideBookingController [http-nio-8081-exec-2] [LTS]  Fetching all ride bookings
+2024-10-04 10:27:05,209 INFO RideBookingServiceImpl [http-nio-8081-exec-2] [LTS]  [LTS] Fetching all ride bookings.
+2024-10-04 10:27:05,209 INFO RideBookingServiceImpl [http-nio-8081-exec-2] [LTS]  [LTS] Fetching all ride bookings.
+2024-10-04 10:27:05,359 INFO RideBookingServiceImpl [http-nio-8081-exec-2] [LTS]  Total ride bookings fetched: 1
+2024-10-04 10:27:05,359 INFO RideBookingServiceImpl [http-nio-8081-exec-2] [LTS]  Total ride bookings fetched: 1
+2024-10-04 10:27:05,359 INFO EventLogService [http-nio-8081-exec-2] Attempting to save event log: UserId=1, Username=admin, ActionType=GET_ALL, Action=RIDE_BOOKING_GET_ALL, Status=SUCCESS
+2024-10-04 10:27:05,359 INFO EventLogService [http-nio-8081-exec-2] Attempting to save event log: UserId=1, Username=admin, ActionType=GET_ALL, Action=RIDE_BOOKING_GET_ALL, Status=SUCCESS
+2024-10-04 10:27:05,359 INFO EventLogService [http-nio-8081-exec-2] Event log successfully saved for UserId=1, Action=RIDE_BOOKING_GET_ALL
+2024-10-04 10:27:05,359 INFO EventLogService [http-nio-8081-exec-2] Event log successfully saved for UserId=1, Action=RIDE_BOOKING_GET_ALL
+2024-10-04 10:27:05,359 INFO RideBookingServiceImpl [http-nio-8081-exec-2] [LTS]  Total ride bookings fetched deatils: edu.uow.lts.ridebooking.entity.RideBooking@47208107
+2024-10-04 10:27:05,359 INFO RideBookingServiceImpl [http-nio-8081-exec-2] [LTS]  Total ride bookings fetched deatils: edu.uow.lts.ridebooking.entity.RideBooking@47208107
+2024-10-04 10:27:05,359 INFO RideBookingController [http-nio-8081-exec-2] [LTS]  Number of ride bookings fetched: 1
+2024-10-04 10:27:05,359 INFO RideBookingController [http-nio-8081-exec-2] [LTS]  Number of ride bookings fetched: 1
+2024-10-04 10:28:43,209 INFO RideBookingController [http-nio-8081-exec-4] [LTS]  Creating a new ride booking for: null
+2024-10-04 10:28:43,209 INFO RideBookingController [http-nio-8081-exec-4] [LTS]  Creating a new ride booking for: null
+2024-10-04 10:28:43,210 INFO RideBookingServiceImpl [http-nio-8081-exec-4] [LTS]  Creating a new ride booking for customer: null
+2024-10-04 10:28:43,210 INFO RideBookingServiceImpl [http-nio-8081-exec-4] [LTS]  Creating a new ride booking for customer: null
+2024-10-04 10:28:43,218 INFO RideBookingServiceImpl [http-nio-8081-exec-4] [LTS]  Ride booking created successfully with ID: 2
+2024-10-04 10:28:43,218 INFO RideBookingServiceImpl [http-nio-8081-exec-4] [LTS]  Ride booking created successfully with ID: 2
+2024-10-04 10:28:43,219 INFO EventLogService [http-nio-8081-exec-4] Attempting to save event log: UserId=1, Username=Jill Mancini, ActionType=CREATE, Action=RIDE_BOOKING_CREATE, Status=SUCCESS
+2024-10-04 10:28:43,219 INFO EventLogService [http-nio-8081-exec-4] Attempting to save event log: UserId=1, Username=Jill Mancini, ActionType=CREATE, Action=RIDE_BOOKING_CREATE, Status=SUCCESS
+2024-10-04 10:28:43,226 INFO EventLogService [http-nio-8081-exec-4] Event log successfully saved for UserId=1, Action=RIDE_BOOKING_CREATE
+2024-10-04 10:28:43,226 INFO EventLogService [http-nio-8081-exec-4] Event log successfully saved for UserId=1, Action=RIDE_BOOKING_CREATE
+2024-10-04 10:28:43,226 INFO RideBookingServiceImpl [http-nio-8081-exec-4] [LTS]  Ride booking created successfully with data: edu.uow.lts.ridebooking.entity.RideBooking@6c329817
+2024-10-04 10:28:43,226 INFO RideBookingServiceImpl [http-nio-8081-exec-4] [LTS]  Ride booking created successfully with data: edu.uow.lts.ridebooking.entity.RideBooking@6c329817
+2024-10-04 10:28:43,227 INFO RideBookingController [http-nio-8081-exec-4] [LTS]  Ride booking created successfully: edu.uow.lts.ridebooking.entity.RideBooking@6c329817
+2024-10-04 10:28:43,227 INFO RideBookingController [http-nio-8081-exec-4] [LTS]  Ride booking created successfully: edu.uow.lts.ridebooking.entity.RideBooking@6c329817
+2024-10-04 10:28:48,244 INFO RideBookingController [http-nio-8081-exec-5] [LTS]  Fetching all ride bookings
+2024-10-04 10:28:48,244 INFO RideBookingController [http-nio-8081-exec-5] [LTS]  Fetching all ride bookings
+2024-10-04 10:28:48,260 INFO RideBookingServiceImpl [http-nio-8081-exec-5] [LTS]  [LTS] Fetching all ride bookings.
+2024-10-04 10:28:48,260 INFO RideBookingServiceImpl [http-nio-8081-exec-5] [LTS]  [LTS] Fetching all ride bookings.
+2024-10-04 10:28:48,280 INFO RideBookingServiceImpl [http-nio-8081-exec-5] [LTS]  Total ride bookings fetched: 2
+2024-10-04 10:28:48,280 INFO RideBookingServiceImpl [http-nio-8081-exec-5] [LTS]  Total ride bookings fetched: 2
+2024-10-04 10:28:48,281 INFO EventLogService [http-nio-8081-exec-5] Attempting to save event log: UserId=1, Username=admin, ActionType=GET_ALL, Action=RIDE_BOOKING_GET_ALL, Status=SUCCESS
+2024-10-04 10:28:48,281 INFO EventLogService [http-nio-8081-exec-5] Attempting to save event log: UserId=1, Username=admin, ActionType=GET_ALL, Action=RIDE_BOOKING_GET_ALL, Status=SUCCESS
+2024-10-04 10:28:48,288 INFO EventLogService [http-nio-8081-exec-5] Event log successfully saved for UserId=1, Action=RIDE_BOOKING_GET_ALL
+2024-10-04 10:28:48,288 INFO EventLogService [http-nio-8081-exec-5] Event log successfully saved for UserId=1, Action=RIDE_BOOKING_GET_ALL
+2024-10-04 10:28:48,288 INFO RideBookingServiceImpl [http-nio-8081-exec-5] [LTS]  Total ride bookings fetched deatils: edu.uow.lts.ridebooking.entity.RideBooking@2bc37fc1
+2024-10-04 10:28:48,288 INFO RideBookingServiceImpl [http-nio-8081-exec-5] [LTS]  Total ride bookings fetched deatils: edu.uow.lts.ridebooking.entity.RideBooking@2bc37fc1
+2024-10-04 10:28:48,288 INFO RideBookingController [http-nio-8081-exec-5] [LTS]  Number of ride bookings fetched: 2
+2024-10-04 10:28:48,288 INFO RideBookingController [http-nio-8081-exec-5] [LTS]  Number of ride bookings fetched: 2
+2024-10-04 10:32:21,008 INFO RideBookingController [http-nio-8081-exec-8] [LTS]  Creating a new ride booking for: null
+2024-10-04 10:32:21,008 INFO RideBookingController [http-nio-8081-exec-8] [LTS]  Creating a new ride booking for: null
+2024-10-04 10:32:21,009 INFO RideBookingServiceImpl [http-nio-8081-exec-8] [LTS]  Creating a new ride booking for customer: null
+2024-10-04 10:32:21,009 INFO RideBookingServiceImpl [http-nio-8081-exec-8] [LTS]  Creating a new ride booking for customer: null
+2024-10-04 10:32:21,019 INFO RideBookingServiceImpl [http-nio-8081-exec-8] [LTS]  Ride booking created successfully with ID: 3
+2024-10-04 10:32:21,019 INFO RideBookingServiceImpl [http-nio-8081-exec-8] [LTS]  Ride booking created successfully with ID: 3
+2024-10-04 10:32:21,019 INFO EventLogService [http-nio-8081-exec-8] Attempting to save event log: UserId=1, Username=Joyce Peter, ActionType=CREATE, Action=RIDE_BOOKING_CREATE, Status=SUCCESS
+2024-10-04 10:32:21,019 INFO EventLogService [http-nio-8081-exec-8] Attempting to save event log: UserId=1, Username=Joyce Peter, ActionType=CREATE, Action=RIDE_BOOKING_CREATE, Status=SUCCESS
+2024-10-04 10:32:21,019 INFO EventLogService [http-nio-8081-exec-8] Event log successfully saved for UserId=1, Action=RIDE_BOOKING_CREATE
+2024-10-04 10:32:21,019 INFO EventLogService [http-nio-8081-exec-8] Event log successfully saved for UserId=1, Action=RIDE_BOOKING_CREATE
+2024-10-04 10:32:21,019 INFO RideBookingServiceImpl [http-nio-8081-exec-8] [LTS]  Ride booking created successfully with data: edu.uow.lts.ridebooking.entity.RideBooking@5ae6e3f5
+2024-10-04 10:32:21,019 INFO RideBookingServiceImpl [http-nio-8081-exec-8] [LTS]  Ride booking created successfully with data: edu.uow.lts.ridebooking.entity.RideBooking@5ae6e3f5
+2024-10-04 10:32:21,019 INFO RideBookingController [http-nio-8081-exec-8] [LTS]  Ride booking created successfully: edu.uow.lts.ridebooking.entity.RideBooking@5ae6e3f5
+2024-10-04 10:32:21,019 INFO RideBookingController [http-nio-8081-exec-8] [LTS]  Ride booking created successfully: edu.uow.lts.ridebooking.entity.RideBooking@5ae6e3f5
+2024-10-04 10:32:26,066 INFO RideBookingController [http-nio-8081-exec-10] [LTS]  Fetching all ride bookings
+2024-10-04 10:32:26,066 INFO RideBookingController [http-nio-8081-exec-10] [LTS]  Fetching all ride bookings
+2024-10-04 10:32:26,067 INFO RideBookingServiceImpl [http-nio-8081-exec-10] [LTS]  [LTS] Fetching all ride bookings.
+2024-10-04 10:32:26,067 INFO RideBookingServiceImpl [http-nio-8081-exec-10] [LTS]  [LTS] Fetching all ride bookings.
+2024-10-04 10:32:26,076 INFO RideBookingServiceImpl [http-nio-8081-exec-10] [LTS]  Total ride bookings fetched: 3
+2024-10-04 10:32:26,076 INFO RideBookingServiceImpl [http-nio-8081-exec-10] [LTS]  Total ride bookings fetched: 3
+2024-10-04 10:32:26,077 INFO EventLogService [http-nio-8081-exec-10] Attempting to save event log: UserId=1, Username=admin, ActionType=GET_ALL, Action=RIDE_BOOKING_GET_ALL, Status=SUCCESS
+2024-10-04 10:32:26,077 INFO EventLogService [http-nio-8081-exec-10] Attempting to save event log: UserId=1, Username=admin, ActionType=GET_ALL, Action=RIDE_BOOKING_GET_ALL, Status=SUCCESS
+2024-10-04 10:32:26,086 INFO EventLogService [http-nio-8081-exec-10] Event log successfully saved for UserId=1, Action=RIDE_BOOKING_GET_ALL
+2024-10-04 10:32:26,086 INFO EventLogService [http-nio-8081-exec-10] Event log successfully saved for UserId=1, Action=RIDE_BOOKING_GET_ALL
+2024-10-04 10:32:26,087 INFO RideBookingServiceImpl [http-nio-8081-exec-10] [LTS]  Total ride bookings fetched deatils: edu.uow.lts.ridebooking.entity.RideBooking@2a65ba04
+2024-10-04 10:32:26,087 INFO RideBookingServiceImpl [http-nio-8081-exec-10] [LTS]  Total ride bookings fetched deatils: edu.uow.lts.ridebooking.entity.RideBooking@2a65ba04
+2024-10-04 10:32:26,087 INFO RideBookingController [http-nio-8081-exec-10] [LTS]  Number of ride bookings fetched: 3
+2024-10-04 10:32:26,087 INFO RideBookingController [http-nio-8081-exec-10] [LTS]  Number of ride bookings fetched: 3
+2024-10-04 10:46:57,311 INFO RideBookingController [http-nio-8081-exec-1] [LTS]  Creating a new ride booking for: null
+2024-10-04 10:46:57,311 INFO RideBookingController [http-nio-8081-exec-1] [LTS]  Creating a new ride booking for: null
+2024-10-04 10:46:57,311 INFO RideBookingServiceImpl [http-nio-8081-exec-1] [LTS]  Creating a new ride booking for customer: null
+2024-10-04 10:46:57,311 INFO RideBookingServiceImpl [http-nio-8081-exec-1] [LTS]  Creating a new ride booking for customer: null
+2024-10-04 10:46:57,349 INFO RideBookingServiceImpl [http-nio-8081-exec-1] [LTS]  Ride booking created successfully with ID: 4
+2024-10-04 10:46:57,349 INFO RideBookingServiceImpl [http-nio-8081-exec-1] [LTS]  Ride booking created successfully with ID: 4
+2024-10-04 10:46:57,350 INFO EventLogService [http-nio-8081-exec-1] Attempting to save event log: UserId=1, Username=Kim Vau, ActionType=CREATE, Action=RIDE_BOOKING_CREATE, Status=SUCCESS
+2024-10-04 10:46:57,350 INFO EventLogService [http-nio-8081-exec-1] Attempting to save event log: UserId=1, Username=Kim Vau, ActionType=CREATE, Action=RIDE_BOOKING_CREATE, Status=SUCCESS
+2024-10-04 10:46:57,358 INFO EventLogService [http-nio-8081-exec-1] Event log successfully saved for UserId=1, Action=RIDE_BOOKING_CREATE
+2024-10-04 10:46:57,358 INFO EventLogService [http-nio-8081-exec-1] Event log successfully saved for UserId=1, Action=RIDE_BOOKING_CREATE
+2024-10-04 10:46:57,358 INFO RideBookingServiceImpl [http-nio-8081-exec-1] [LTS]  Ride booking created successfully with data: edu.uow.lts.ridebooking.entity.RideBooking@5ff74505
+2024-10-04 10:46:57,358 INFO RideBookingServiceImpl [http-nio-8081-exec-1] [LTS]  Ride booking created successfully with data: edu.uow.lts.ridebooking.entity.RideBooking@5ff74505
+2024-10-04 10:46:57,358 INFO RideBookingController [http-nio-8081-exec-1] [LTS]  Ride booking created successfully: edu.uow.lts.ridebooking.entity.RideBooking@5ff74505
+2024-10-04 10:46:57,358 INFO RideBookingController [http-nio-8081-exec-1] [LTS]  Ride booking created successfully: edu.uow.lts.ridebooking.entity.RideBooking@5ff74505
+2024-10-04 10:47:02,400 INFO RideBookingController [http-nio-8081-exec-2] [LTS]  Fetching all ride bookings
+2024-10-04 10:47:02,400 INFO RideBookingController [http-nio-8081-exec-2] [LTS]  Fetching all ride bookings
+2024-10-04 10:47:02,401 INFO RideBookingServiceImpl [http-nio-8081-exec-2] [LTS]  [LTS] Fetching all ride bookings.
+2024-10-04 10:47:02,401 INFO RideBookingServiceImpl [http-nio-8081-exec-2] [LTS]  [LTS] Fetching all ride bookings.
+2024-10-04 10:47:02,420 INFO RideBookingServiceImpl [http-nio-8081-exec-2] [LTS]  Total ride bookings fetched: 4
+2024-10-04 10:47:02,420 INFO RideBookingServiceImpl [http-nio-8081-exec-2] [LTS]  Total ride bookings fetched: 4
+2024-10-04 10:47:02,420 INFO EventLogService [http-nio-8081-exec-2] Attempting to save event log: UserId=1, Username=admin, ActionType=GET_ALL, Action=RIDE_BOOKING_GET_ALL, Status=SUCCESS
+2024-10-04 10:47:02,420 INFO EventLogService [http-nio-8081-exec-2] Attempting to save event log: UserId=1, Username=admin, ActionType=GET_ALL, Action=RIDE_BOOKING_GET_ALL, Status=SUCCESS
+2024-10-04 10:47:02,429 INFO EventLogService [http-nio-8081-exec-2] Event log successfully saved for UserId=1, Action=RIDE_BOOKING_GET_ALL
+2024-10-04 10:47:02,429 INFO EventLogService [http-nio-8081-exec-2] Event log successfully saved for UserId=1, Action=RIDE_BOOKING_GET_ALL
+2024-10-04 10:47:02,430 INFO RideBookingServiceImpl [http-nio-8081-exec-2] [LTS]  Total ride bookings fetched deatils: edu.uow.lts.ridebooking.entity.RideBooking@2d88c39c
+2024-10-04 10:47:02,430 INFO RideBookingServiceImpl [http-nio-8081-exec-2] [LTS]  Total ride bookings fetched deatils: edu.uow.lts.ridebooking.entity.RideBooking@2d88c39c
+2024-10-04 10:47:02,430 INFO RideBookingController [http-nio-8081-exec-2] [LTS]  Number of ride bookings fetched: 4
+2024-10-04 10:47:02,430 INFO RideBookingController [http-nio-8081-exec-2] [LTS]  Number of ride bookings fetched: 4
+2024-10-04 11:01:30,568 INFO RideBookingController [http-nio-8081-exec-4] [LTS]  Fetching all ride bookings
+2024-10-04 11:01:30,568 INFO RideBookingController [http-nio-8081-exec-4] [LTS]  Fetching all ride bookings
+2024-10-04 11:01:30,569 INFO RideBookingServiceImpl [http-nio-8081-exec-4] [LTS]  [LTS] Fetching all ride bookings.
+2024-10-04 11:01:30,569 INFO RideBookingServiceImpl [http-nio-8081-exec-4] [LTS]  [LTS] Fetching all ride bookings.
+2024-10-04 11:01:30,581 INFO RideBookingServiceImpl [http-nio-8081-exec-4] [LTS]  Total ride bookings fetched: 4
+2024-10-04 11:01:30,581 INFO RideBookingServiceImpl [http-nio-8081-exec-4] [LTS]  Total ride bookings fetched: 4
+2024-10-04 11:01:30,581 INFO EventLogService [http-nio-8081-exec-4] Attempting to save event log: UserId=1, Username=admin, ActionType=GET_ALL, Action=RIDE_BOOKING_GET_ALL, Status=SUCCESS
+2024-10-04 11:01:30,581 INFO EventLogService [http-nio-8081-exec-4] Attempting to save event log: UserId=1, Username=admin, ActionType=GET_ALL, Action=RIDE_BOOKING_GET_ALL, Status=SUCCESS
+2024-10-04 11:01:30,589 INFO EventLogService [http-nio-8081-exec-4] Event log successfully saved for UserId=1, Action=RIDE_BOOKING_GET_ALL
+2024-10-04 11:01:30,589 INFO EventLogService [http-nio-8081-exec-4] Event log successfully saved for UserId=1, Action=RIDE_BOOKING_GET_ALL
+2024-10-04 11:01:30,589 INFO RideBookingServiceImpl [http-nio-8081-exec-4] [LTS]  Total ride bookings fetched deatils: edu.uow.lts.ridebooking.entity.RideBooking@5599ff01
+2024-10-04 11:01:30,589 INFO RideBookingServiceImpl [http-nio-8081-exec-4] [LTS]  Total ride bookings fetched deatils: edu.uow.lts.ridebooking.entity.RideBooking@5599ff01
+2024-10-04 11:01:30,590 INFO RideBookingController [http-nio-8081-exec-4] [LTS]  Number of ride bookings fetched: 4
+2024-10-04 11:01:30,590 INFO RideBookingController [http-nio-8081-exec-4] [LTS]  Number of ride bookings fetched: 4
+2024-10-04 11:02:32,471 INFO RideBookingController [http-nio-8081-exec-7] [LTS]  Fetching all ride bookings
+2024-10-04 11:02:32,471 INFO RideBookingController [http-nio-8081-exec-7] [LTS]  Fetching all ride bookings
+2024-10-04 11:02:32,472 INFO RideBookingServiceImpl [http-nio-8081-exec-7] [LTS]  [LTS] Fetching all ride bookings.
+2024-10-04 11:02:32,472 INFO RideBookingServiceImpl [http-nio-8081-exec-7] [LTS]  [LTS] Fetching all ride bookings.
+2024-10-04 11:02:32,482 INFO RideBookingServiceImpl [http-nio-8081-exec-7] [LTS]  Total ride bookings fetched: 4
+2024-10-04 11:02:32,482 INFO RideBookingServiceImpl [http-nio-8081-exec-7] [LTS]  Total ride bookings fetched: 4
+2024-10-04 11:02:32,482 INFO EventLogService [http-nio-8081-exec-7] Attempting to save event log: UserId=1, Username=admin, ActionType=GET_ALL, Action=RIDE_BOOKING_GET_ALL, Status=SUCCESS
+2024-10-04 11:02:32,482 INFO EventLogService [http-nio-8081-exec-7] Attempting to save event log: UserId=1, Username=admin, ActionType=GET_ALL, Action=RIDE_BOOKING_GET_ALL, Status=SUCCESS
+2024-10-04 11:02:32,489 INFO EventLogService [http-nio-8081-exec-7] Event log successfully saved for UserId=1, Action=RIDE_BOOKING_GET_ALL
+2024-10-04 11:02:32,489 INFO EventLogService [http-nio-8081-exec-7] Event log successfully saved for UserId=1, Action=RIDE_BOOKING_GET_ALL
+2024-10-04 11:02:32,490 INFO RideBookingServiceImpl [http-nio-8081-exec-7] [LTS]  Total ride bookings fetched deatils: edu.uow.lts.ridebooking.entity.RideBooking@1cd7f092
+2024-10-04 11:02:32,490 INFO RideBookingServiceImpl [http-nio-8081-exec-7] [LTS]  Total ride bookings fetched deatils: edu.uow.lts.ridebooking.entity.RideBooking@1cd7f092
+2024-10-04 11:02:32,490 INFO RideBookingController [http-nio-8081-exec-7] [LTS]  Number of ride bookings fetched: 4
+2024-10-04 11:02:32,490 INFO RideBookingController [http-nio-8081-exec-7] [LTS]  Number of ride bookings fetched: 4
+2024-10-04 11:03:52,494 INFO RideBookingController [http-nio-8081-exec-10] [LTS]  Creating a new ride booking for: null
+2024-10-04 11:03:52,494 INFO RideBookingController [http-nio-8081-exec-10] [LTS]  Creating a new ride booking for: null
+2024-10-04 11:03:52,494 INFO RideBookingServiceImpl [http-nio-8081-exec-10] [LTS]  Creating a new ride booking for customer: null
+2024-10-04 11:03:52,494 INFO RideBookingServiceImpl [http-nio-8081-exec-10] [LTS]  Creating a new ride booking for customer: null
+2024-10-04 11:03:52,503 INFO RideBookingServiceImpl [http-nio-8081-exec-10] [LTS]  Ride booking created successfully with ID: 5
+2024-10-04 11:03:52,503 INFO RideBookingServiceImpl [http-nio-8081-exec-10] [LTS]  Ride booking created successfully with ID: 5
+2024-10-04 11:03:52,503 INFO EventLogService [http-nio-8081-exec-10] Attempting to save event log: UserId=1, Username=Kim Minho, ActionType=CREATE, Action=RIDE_BOOKING_CREATE, Status=SUCCESS
+2024-10-04 11:03:52,503 INFO EventLogService [http-nio-8081-exec-10] Attempting to save event log: UserId=1, Username=Kim Minho, ActionType=CREATE, Action=RIDE_BOOKING_CREATE, Status=SUCCESS
+2024-10-04 11:03:52,503 INFO EventLogService [http-nio-8081-exec-10] Event log successfully saved for UserId=1, Action=RIDE_BOOKING_CREATE
+2024-10-04 11:03:52,503 INFO EventLogService [http-nio-8081-exec-10] Event log successfully saved for UserId=1, Action=RIDE_BOOKING_CREATE
+2024-10-04 11:03:52,503 INFO RideBookingServiceImpl [http-nio-8081-exec-10] [LTS]  Ride booking created successfully with data: edu.uow.lts.ridebooking.entity.RideBooking@3fb11a70
+2024-10-04 11:03:52,503 INFO RideBookingServiceImpl [http-nio-8081-exec-10] [LTS]  Ride booking created successfully with data: edu.uow.lts.ridebooking.entity.RideBooking@3fb11a70
+2024-10-04 11:03:52,503 INFO RideBookingController [http-nio-8081-exec-10] [LTS]  Ride booking created successfully: edu.uow.lts.ridebooking.entity.RideBooking@3fb11a70
+2024-10-04 11:03:52,503 INFO RideBookingController [http-nio-8081-exec-10] [LTS]  Ride booking created successfully: edu.uow.lts.ridebooking.entity.RideBooking@3fb11a70
+2024-10-04 11:03:57,528 INFO RideBookingController [http-nio-8081-exec-9] [LTS]  Fetching all ride bookings
+2024-10-04 11:03:57,528 INFO RideBookingController [http-nio-8081-exec-9] [LTS]  Fetching all ride bookings
+2024-10-04 11:03:57,528 INFO RideBookingServiceImpl [http-nio-8081-exec-9] [LTS]  [LTS] Fetching all ride bookings.
+2024-10-04 11:03:57,528 INFO RideBookingServiceImpl [http-nio-8081-exec-9] [LTS]  [LTS] Fetching all ride bookings.
+2024-10-04 11:03:57,546 INFO RideBookingServiceImpl [http-nio-8081-exec-9] [LTS]  Total ride bookings fetched: 5
+2024-10-04 11:03:57,546 INFO RideBookingServiceImpl [http-nio-8081-exec-9] [LTS]  Total ride bookings fetched: 5
+2024-10-04 11:03:57,546 INFO EventLogService [http-nio-8081-exec-9] Attempting to save event log: UserId=1, Username=admin, ActionType=GET_ALL, Action=RIDE_BOOKING_GET_ALL, Status=SUCCESS
+2024-10-04 11:03:57,546 INFO EventLogService [http-nio-8081-exec-9] Attempting to save event log: UserId=1, Username=admin, ActionType=GET_ALL, Action=RIDE_BOOKING_GET_ALL, Status=SUCCESS
+2024-10-04 11:03:57,554 INFO EventLogService [http-nio-8081-exec-9] Event log successfully saved for UserId=1, Action=RIDE_BOOKING_GET_ALL
+2024-10-04 11:03:57,554 INFO EventLogService [http-nio-8081-exec-9] Event log successfully saved for UserId=1, Action=RIDE_BOOKING_GET_ALL
+2024-10-04 11:03:57,554 INFO RideBookingServiceImpl [http-nio-8081-exec-9] [LTS]  Total ride bookings fetched deatils: edu.uow.lts.ridebooking.entity.RideBooking@126e0aa2
+2024-10-04 11:03:57,554 INFO RideBookingServiceImpl [http-nio-8081-exec-9] [LTS]  Total ride bookings fetched deatils: edu.uow.lts.ridebooking.entity.RideBooking@126e0aa2
+2024-10-04 11:03:57,554 INFO RideBookingController [http-nio-8081-exec-9] [LTS]  Number of ride bookings fetched: 5
+2024-10-04 11:03:57,554 INFO RideBookingController [http-nio-8081-exec-9] [LTS]  Number of ride bookings fetched: 5
