@@ -1,0 +1,30 @@
+2024-10-06 16:58:57,100 INFO StartupInfoLogger [main] Starting RidebookingApplication using Java 17.0.10 with PID 8288 (D:\Sem 3\CSCI927\Project\Project -927\Workspace\lts\target\classes started by HP in D:\Sem 3\CSCI927\Project\Project -927\Workspace\lts)
+2024-10-06 16:58:57,100 INFO StartupInfoLogger [main] Starting RidebookingApplication using Java 17.0.10 with PID 8288 (D:\Sem 3\CSCI927\Project\Project -927\Workspace\lts\target\classes started by HP in D:\Sem 3\CSCI927\Project\Project -927\Workspace\lts)
+2024-10-06 16:58:57,141 DEBUG StartupInfoLogger [main] Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-10-06 16:58:57,141 DEBUG StartupInfoLogger [main] Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-10-06 16:58:57,159 INFO SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-10-06 16:58:57,159 INFO SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-10-06 16:59:00,331 INFO RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-06 16:59:00,442 INFO RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 94 ms. Found 2 JPA repository interfaces.
+2024-10-06 16:59:04,090 INFO TomcatWebServer [main] Tomcat initialized with port 8081 (http)
+2024-10-06 16:59:04,131 INFO DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2024-10-06 16:59:04,138 INFO DirectJDKLog [main] Starting service [Tomcat]
+2024-10-06 16:59:04,139 INFO DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-06 16:59:04,378 INFO DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-10-06 16:59:04,384 INFO ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 7073 ms
+2024-10-06 16:59:05,514 INFO LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-06 16:59:05,772 INFO Version [main] HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-06 16:59:05,903 INFO RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-10-06 16:59:06,749 INFO SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-06 16:59:06,835 INFO HikariDataSource [main] HikariPool-1 - Starting...
+2024-10-06 16:59:07,524 INFO HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@531299d3
+2024-10-06 16:59:07,531 INFO HikariDataSource [main] HikariPool-1 - Start completed.
+2024-10-06 16:59:07,672 WARN DialectFactoryImpl [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-06 16:59:09,812 INFO JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-06 16:59:09,821 INFO AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-06 16:59:10,936 WARN JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-06 16:59:12,695 INFO EndpointLinksResolver [main] Exposing 1 endpoint beneath base path '/actuator'
+2024-10-06 16:59:12,873 INFO DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2024-10-06 16:59:12,973 INFO TomcatWebServer [main] Tomcat started on port 8081 (http) with context path '/'
+2024-10-06 16:59:13,045 INFO StartupInfoLogger [main] Started RidebookingApplication in 16.825 seconds (process running for 18.934)
+2024-10-06 16:59:13,045 INFO StartupInfoLogger [main] Started RidebookingApplication in 16.825 seconds (process running for 18.934)

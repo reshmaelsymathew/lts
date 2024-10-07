@@ -1,0 +1,47 @@
+2024-10-06 17:12:20,163 INFO StartupInfoLogger [main] Starting RidebookingApplication using Java 17.0.10 with PID 2208 (D:\Sem 3\CSCI927\Project\Project -927\Workspace\lts\target\classes started by HP in D:\Sem 3\CSCI927\Project\Project -927\Workspace\lts)
+2024-10-06 17:12:20,163 INFO StartupInfoLogger [main] Starting RidebookingApplication using Java 17.0.10 with PID 2208 (D:\Sem 3\CSCI927\Project\Project -927\Workspace\lts\target\classes started by HP in D:\Sem 3\CSCI927\Project\Project -927\Workspace\lts)
+2024-10-06 17:12:20,185 DEBUG StartupInfoLogger [main] Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-10-06 17:12:20,185 DEBUG StartupInfoLogger [main] Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-10-06 17:12:20,192 INFO SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-10-06 17:12:20,192 INFO SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-10-06 17:12:22,302 INFO RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-06 17:12:22,427 INFO RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 105 ms. Found 2 JPA repository interfaces.
+2024-10-06 17:12:24,201 INFO TomcatWebServer [main] Tomcat initialized with port 8081 (http)
+2024-10-06 17:12:24,222 INFO DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2024-10-06 17:12:24,229 INFO DirectJDKLog [main] Starting service [Tomcat]
+2024-10-06 17:12:24,231 INFO DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-06 17:12:24,373 INFO DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-10-06 17:12:24,379 INFO ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4096 ms
+2024-10-06 17:12:25,186 INFO LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-06 17:12:25,321 INFO Version [main] HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-06 17:12:25,429 INFO RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-10-06 17:12:26,157 INFO SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-06 17:12:26,243 INFO HikariDataSource [main] HikariPool-1 - Starting...
+2024-10-06 17:12:26,947 INFO HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@79349b61
+2024-10-06 17:12:26,949 INFO HikariDataSource [main] HikariPool-1 - Start completed.
+2024-10-06 17:12:27,057 WARN DialectFactoryImpl [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-06 17:12:28,991 INFO JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-06 17:12:28,997 INFO AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-06 17:12:29,822 WARN JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-06 17:12:31,247 INFO EndpointLinksResolver [main] Exposing 1 endpoint beneath base path '/actuator'
+2024-10-06 17:12:31,407 INFO DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2024-10-06 17:12:31,459 INFO TomcatWebServer [main] Tomcat started on port 8081 (http) with context path '/'
+2024-10-06 17:12:31,507 INFO StartupInfoLogger [main] Started RidebookingApplication in 12.133 seconds (process running for 14.266)
+2024-10-06 17:12:31,507 INFO StartupInfoLogger [main] Started RidebookingApplication in 12.133 seconds (process running for 14.266)
+2024-10-06 17:14:13,296 INFO DirectJDKLog [http-nio-8081-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-06 17:14:13,306 INFO FrameworkServlet [http-nio-8081-exec-2] Initializing Servlet 'dispatcherServlet'
+2024-10-06 17:14:13,317 INFO FrameworkServlet [http-nio-8081-exec-2] Completed initialization in 10 ms
+2024-10-06 17:14:13,514 INFO RideBookingController [http-nio-8081-exec-2] [LTS]  Fetching all ride bookings
+2024-10-06 17:14:13,514 INFO RideBookingController [http-nio-8081-exec-2] [LTS]  Fetching all ride bookings
+2024-10-06 17:14:13,514 INFO RideBookingServiceImpl [http-nio-8081-exec-2] [LTS]  [LTS] Fetching all ride bookings.
+2024-10-06 17:14:13,514 INFO RideBookingServiceImpl [http-nio-8081-exec-2] [LTS]  [LTS] Fetching all ride bookings.
+2024-10-06 17:14:13,821 INFO RideBookingServiceImpl [http-nio-8081-exec-2] [LTS]  Total ride bookings fetched: 5
+2024-10-06 17:14:13,821 INFO RideBookingServiceImpl [http-nio-8081-exec-2] [LTS]  Total ride bookings fetched: 5
+2024-10-06 17:14:13,821 INFO EventLogService [http-nio-8081-exec-2] Attempting to save event log: UserId=1, Username=admin, ActionType=GET_ALL, Action=RIDE_BOOKING_GET_ALL, Status=SUCCESS
+2024-10-06 17:14:13,821 INFO EventLogService [http-nio-8081-exec-2] Attempting to save event log: UserId=1, Username=admin, ActionType=GET_ALL, Action=RIDE_BOOKING_GET_ALL, Status=SUCCESS
+2024-10-06 17:14:13,904 INFO EventLogService [http-nio-8081-exec-2] Event log successfully saved for UserId=1, Action=RIDE_BOOKING_GET_ALL
+2024-10-06 17:14:13,904 INFO EventLogService [http-nio-8081-exec-2] Event log successfully saved for UserId=1, Action=RIDE_BOOKING_GET_ALL
+2024-10-06 17:14:13,904 INFO RideBookingServiceImpl [http-nio-8081-exec-2] [LTS]  Total ride bookings fetched deatils: edu.uow.lts.ridebooking.entity.RideBooking@367974e4
+2024-10-06 17:14:13,904 INFO RideBookingServiceImpl [http-nio-8081-exec-2] [LTS]  Total ride bookings fetched deatils: edu.uow.lts.ridebooking.entity.RideBooking@367974e4
+2024-10-06 17:14:13,904 INFO RideBookingController [http-nio-8081-exec-2] [LTS]  Number of ride bookings fetched: 5
+2024-10-06 17:14:13,904 INFO RideBookingController [http-nio-8081-exec-2] [LTS]  Number of ride bookings fetched: 5
